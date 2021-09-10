@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Drum Kit</title>
+</head>
+<body>
+    
+    <onkeydown = "keyDrum(event)"></onkeydown>
+
+    <div class = "header">
+        <p>Press A for Boom</p>
+        <p>Press B for Clap</p>
+        <p>Press C for Hihat</p>
+        <p>Press D for Kick</p>
+        <p>Press E for Openhat</p>
+        <p>Press F for Ride</p>
+        <p>Press G for Snare</p>
+        <p>Press H for Tink</p>
+        <p>Press I for Tom</p>
+    </div>
+
+
+<h1>Drum Kit</h1>
+
+
+    <div class = "container">
+
+        <img id = "img1" src= "/Week3/drumkit/images/music_note-removebg-preview.png" value="Boom" onclick="play1()">
+    
+        <img src= "/Week3/drumkit/images/music_note-removebg-preview.png" value="Clap" onclick="play2()">
+    
+        <img src= "/Week3/drumkit/images/music_note-removebg-preview.png" value="Hihat" onclick="play3()">
+    
+        <img src= "/Week3/drumkit/images/music_note-removebg-preview.png" value="Kick" onclick="play4()">
+    
+        <img src= "/Week3/drumkit/images/music_note-removebg-preview.png" value="Openhat" onclick="play5()">
+    
+        <img src= "/Week3/drumkit/images/music_note-removebg-preview.png" value="Ride" onclick="play6()">
+    
+        <img src= "/Week3/drumkit/images/music_note-removebg-preview.png" value="Snare" onclick="play7()">
+    
+        <img src= "/Week3/drumkit/images/music_note-removebg-preview.png" value= "Tink" onclick="play8()">
+    
+        <img src= "/Week3/drumkit/images/music_note-removebg-preview.png"value="Tom" onclick="play9()">
+        
+    </div>
+
+<!--audio for boom sound-->
+    <audio id = "boom" controls style="display:none">
+        <source src = "/Week3/drumkit/sounds/sounds/boom.wav"></audio>
+
+<!--audio for clap sound-->
+    <audio id = "clap" controls style="display:none">
+        <source src = "/Week3/drumkit/sounds/sounds/clap.wav"></audio>
+
+<!--audio for hihat sound-->
+    <audio id = "hihat" controls style="display:none">
+        <source src = "/Week3/drumkit/sounds/sounds/hihat.wav"></audio>
+
+<!--audio for kick sound-->
+    <audio id = "kick" controls style="display:none">
+        <source src = "/Week3/drumkit/sounds/sounds/kick.wav"></audio>
+
+<!--audio for openhat sound-->
+    <audio id = "openhat" controls style="display:none">
+        <source src = "/Week3/drumkit/sounds/sounds/openhat.wav"></audio>
+
+<!--audio for ride sound-->
+    <audio id = "ride" controls style="display:none">
+        <source src = "/Week3/drumkit/sounds/sounds/ride.wav"></audio>
+
+<!--audio for snare sound-->
+    <audio id = "snare" controls style="display:none">
+        <source src = "/Week3/drumkit/sounds/sounds/snare.wav"></audio>
+
+<!--audio for tink sound-->
+    <audio id = "tink" controls style="display:none">
+        <source src = "/Week3/drumkit/sounds/sounds/tink.wav"></audio>
+
+<!--audio for tom sound-->
+    <audio id = "tom" controls style="display:none">
+        <source src = "/Week3/drumkit/sounds/sounds/tom.wav"></audio>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
